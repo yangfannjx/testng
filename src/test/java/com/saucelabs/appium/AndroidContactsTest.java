@@ -7,9 +7,11 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteTouchScreen;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
 import java.io.File;
 import java.net.URL;
 import java.util.List;
@@ -42,10 +44,22 @@ public class AndroidContactsTest {
 
     @Test
     public void addContact(){
+    	Assert.assertTrue(true);
     }
 
     @Test
     public void addContact1(){
+    	Assert.assertTrue(true);
+    }
+    
+    @Test
+    public void addContact2(){
+    	Assert.assertTrue(0==2);
+    }
+    
+    @Test
+    public void addContact3(){
+    	Assert.assertTrue(0==2);
     }
 
 
